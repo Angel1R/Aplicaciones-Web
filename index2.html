@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="index2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header id="Ini">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Desarrolladora Web</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#Ini">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Cursos">Cursos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#SobreMi">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="portafolio mt-5 pt-5 text-center">
+        <img src="/Imagenes/Myself.jpg" alt="Perfil">
+        <h1>Angel Rodrigo Marin Rosalino</h1>
+        <strong><p>TSU en Tecnologías de la Información Área Desarrollo de Software Multiplataforma</p></strong>
+    </section>
+
+    <section id="Cursos" class="cursos text-center">
+        <p class="bb">Cursos</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <strong>GOOGLE: INTELIGENCIA ARTIFICIAL Y PRODUCTIVIDAD EN SANTANDER</strong>
+                    <br><img class="img-fluid" src="/Imagenes/Santander.png" alt="Certificado Santander IA">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <strong>GOOGLE: INTELIGÊNCIA ARTIFICIAL E PRODUTIVIDADE EN SANTANDER</strong>
+                    <br><img class="img-fluid" src="/Imagenes/SantanerPortugués.png" alt="Certificado Santander IA Portugués">
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <strong>DESARROLLO WEB COMPLETO CON HTML5, CSS3, JS AJAX PHP Y MYSQL EN UDEMY</strong>
+                    <br><img class="img-fluid" src="/Imagenes/Udemy.jpg" alt="Certificado Udemy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SobreMi" class="about text-center">
+        <p class="bb">Sobre Mí</p>
+        <strong><p class="pp">Soy un estudiante apasionado por la tecnología y el desarrollo de software. Me encanta aprender nuevos lenguajes, resolver problemas y crear aplicaciones. Disfruto explorar nuevas tecnologías y mejorar mis habilidades a través de proyectos prácticos, cursos y desafíos de programación. Me motiva mejorar mis habilidades y afrontar nuevos desafíos en el mundo de la programación.</p></strong>
+    </section>
+
+    <section id="Contacto" class="contacto text-center">
+        <p class="bb">Contáctame</p>
+        <div class="container">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Correo</label>
+                    <input required type="email" class="form-control" placeholder="Ingrese su correo">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Número</label>
+                    <input required type="tel" class="form-control" pattern="[0-9]{9}" placeholder="Ingrese su número (9 números)">
+                </div>
+                <button type="submit" class="btn-grad">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>CBTA NO.61 - MEDIO SUPERIOR</p>
+                    <p>UNIVERSIDAD TECNOLÓGICA DE CALVILLO (ACTUAL) - SUPERIOR</p>
+                </div>
+                <div class="f3 col-md-4">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg> Teléfono: 4951329569</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg> Correo: angelrodrigo.ar55@gmail.com</p>
+                </div>
+                <div class="col-md-4">LinkedIn: <a href="https://www.linkedin.com">Perfil</a></div>
+                
+                  
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
